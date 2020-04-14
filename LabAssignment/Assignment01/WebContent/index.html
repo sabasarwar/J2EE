@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>User Login</title>
+	<style>
+	h2
+	{
+		text-align:center;
+		text-decoration:none;
+	}
+	
+	</style>
+</head>
+<body>
+	<h2>User Login form</h2>
+	<form action="user">
+		<h3>Personal Details</h3>
+			<label>First Name </label>
+			<input type="text" name="fname"><br>
+			<label>Last Name </label>
+			<input type="text" name="lname"><br>
+			<label>Age </label>
+			<input type="text" name="age"><br>
+			<label>Gender </label>
+					<input type="radio" name="gender" value="male">Male
+					<input type="radio" name="gender" value="female">Female
+					<input type="radio" name="gender" value="other">Other <br>
+			<label>DOB </label>
+			<input type="date" name="dob"><br>
+			<label>Address </label> <br>
+			<textarea rows="5" cols="50" name="address"></textarea><br>
+		<h3>Academic Details</h3>
+			<h5>Graduation : </h5>
+			<label>Percentage</label>
+			<input type="text" name="percent1"><br>
+			
+			<h5>Intermediate : </h5>
+			<label>Percentage</label>
+			<input type="text" name="percent2"><br>
+			
+			<h5>High School : </h5>
+			<label>Percentage</label>
+			<input type="text" name="percent3"><br>
+			
+		<h3>Experience Details</h3>
+			<label>Company</label>
+			<input type="text" name="company"><br>
+			<label>Position</label>
+			<input type="text" name="position"><br>
+			<label>Experience Year</label>
+			<input type="text" name="year"><br>
+			
+		<input type="submit" >
+	</form>	
+</body>
+</html>
